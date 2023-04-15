@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+   <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+</head>
+
+<body>
+  
+
+   <nav class="header">
+    <img src="https://i.ibb.co/kh3SJYH/cropped.png" alt="cropped" border="0" alt="cropped-logo" border="0" class="left-  heading"/>  
+
+      <section class="tenpx">
+        <button id="reset" onclick="renderCategories()"><h2>x</h2></button>
+   <div class="wrapper">
+     <div class="searchcategory">
+
+    <input id="filterkey" class="search" placeholder="Enter a Category" type="text">
+      <button id="categoryfilterbutton"onclick="filterByCategory()">
+        Search Categories
+      </button>
+    </div>
+   
+  
+    <div class="wrapper">
+      <div>
+       
+      <input class= "search" input id="ingredientkey" type="text" placeholder="Ingredient" autocomplete="on">
+      <button id="ingredientsearchbutton" onclick="searchByIngredient()">
+        Search meals by Ingredient
+      </button>
+      </div>
+       
+    </div>
+   </div>
+    </nav>
+<img src="Slide1.PNG"/>
+  
+ 
+    <div class="wrapper">
+      <p id="aboutus" onclick="aboutusWindow()">About Us and Contact Information</p>
+    </div>
+  <main id="renderstuff">  
+   
+  </main>
+
+
+
+      
+  <main id="searchingredients"></main>
+      
+       <footer>
+  <h3>Chef's Delight </h3>
+         <a href="#top" ><h3>Return to Top </h3></a>
+         <h3 id="aboutuslink"onclick="aboutusWindow()">About us</h3>
+  </footer>
+
+
+      
+  <script src="index.js">
+  </script>
+</body>
+
+</html>
